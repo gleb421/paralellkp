@@ -1,5 +1,5 @@
 import unittest
-from paralelipiped import Paralellipiped
+from paralelipiped import Paralelipiped
 
 class TestParalelogram(unittest.TestCase):
 
@@ -9,7 +9,7 @@ class TestParalelogram(unittest.TestCase):
         whidth = 2
 
         height = 4
-        p = Paralellipiped(lenght,whidth, height)
+        p = Paralelipiped(lenght,whidth, height)
         result = p.area()
         self.assertAlmostEqual(result, 52)
     def test_volume(self):
@@ -18,7 +18,7 @@ class TestParalelogram(unittest.TestCase):
         whidth = 2
 
         height = 4
-        p = Paralellipiped(lenght,whidth, height)
+        p = Paralelipiped(lenght,whidth, height)
         result = p.volume()
         self.assertAlmostEqual(result, 24)
 
