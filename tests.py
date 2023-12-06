@@ -1,5 +1,5 @@
 import unittest
-from paralelipiped import Paralelipiped
+from paralelipiped import Paralellipiped
 
 class TestParalelogram(unittest.TestCase):
 
