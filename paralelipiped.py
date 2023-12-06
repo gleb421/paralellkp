@@ -1,4 +1,4 @@
-class Paralelipiped:
+class Paralellipiped:
     def __init__(self,length,width,height):
         self.length = length
         self.height = height
@@ -12,6 +12,6 @@ class Paralelipiped:
         return self.height * self.length * self.width
 
 
-paralelipiped = Paralelipiped(3,2,4)
+paralelipiped = Paralellipiped(3,2,4)
 print(paralelipiped.area(),paralelipiped.volume())
 print("hello world")
